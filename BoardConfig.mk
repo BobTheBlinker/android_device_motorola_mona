@@ -29,6 +29,7 @@ TARGET_KERNEL_CONFIG += \
 TARGET_KERNEL_EXT_MODULES += \
     motorola/drivers/input/misc/rbs_fod_mmi \
     motorola/drivers/misc/sx937x_multi \
+    nxp/opensource/driver \
     st/opensource/driver
 
 # Partitions
