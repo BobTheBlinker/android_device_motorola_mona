@@ -402,7 +402,6 @@ vendor/lib64/camx.device-impl.so
 vendor/lib64/camx.provider-impl.so
 vendor/lib64/com.motorola.hardware.camera.postprocess-V1-ndk.so
 vendor/lib64/com.motorola.hardware.display.panel-V1-ndk.so
-vendor/lib64/libmapperutils.so;DISABLE_CHECKELF
 vendor/lib64/libundistort_impl.so
 vendor/lib64/libBSTSWAD.so;DISABLE_CHECKELF
 
