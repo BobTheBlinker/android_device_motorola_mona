@@ -27,7 +27,10 @@ TARGET_KERNEL_CONFIG += \
 	vendor/ext_config/moto-parrot-mona.config
 
 TARGET_KERNEL_EXT_MODULES += \
-    motorola/drivers/input/misc/rbs_fod_mmi
+    motorola/drivers/input/misc/rbs_fod_mmi \
+    motorola/drivers/misc/hall \
+    motorola/drivers/misc/sx937x_multi \
+    st/opensource/driver
 
 # Partitions
 BOARD_MOT_DP_GROUP_SIZE := 10313793536 # ( BOARD_SUPER_PARTITION_SIZE - 4MB )
